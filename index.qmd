@@ -1,41 +1,40 @@
 ---
-title: "Byeong-Hak Choe"  
+title: "Byeong-Hak"  
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: img/bchoe2020sq.png
   image-width: 15em
   image-shape: round # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: instagram
-      text: Instagram
-      href: https://instagram.com
+      href: https://www.linkedin.com/in/byeonghakchoe/
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/bclog1
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: https://bclog1.github.io/choe-cv.pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:bchoe@geneseo.edu
 
 ---
 
-
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Byeong-Hak is an Assistant Professor of Data Analytics and Economics at SUNY Geneseo. My fields of interest are economics of climate change.
 
 ## Education
 
-State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+University of Wyoming | Tempe, AZ <br>
+Ph.D. in Economics | Aug 2016 - Aug 2021 <br>
+Arizona State University | Tempe, AZ <br>
+M.S. in Economics | Aug 2014 - Dec 2015 <br>
+State University of New York at Stony Brook | Stony Brook, NY <br>
+M.A. in Economics | Aug 2012 - May 2014 <br>
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+SUNY Geneseo | Assistant Professor of Data Analytics and Economics | Sep 2023 - present
 
 
