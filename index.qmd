@@ -1,5 +1,5 @@
 ---
-title: "Byeong-Hak Choe"  
+title: "Byeong-Hak"  
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/bchoe2020sq.png
