@@ -28,6 +28,7 @@ library(tidyverse)
 library(skimr)
 library(ggthemes)
 library(hrbrthemes)
+library(DT)
 
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
@@ -68,7 +69,7 @@ mpg <- ggplot2::mpg
 ```{r}
 #| results: asis
 #| echo: false
-rmarkdown::paged_table(mpg) 
+DT::datatable(mpg) 
 ```
 
 
