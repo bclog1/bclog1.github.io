@@ -3,17 +3,21 @@ project:
   output-dir: "."
 
 website:
-  title: "YOUR NAME"
+  title: "Byeong-Hak Choe"
   navbar:
     pinned: true
     left:
       - text: Project
         href: project.qmd
+        
+      - text: R Basics
+        href: danl-200-quarto.qmd
+        
       - text: Blog
         href: blog-listing.qmd
             
   page-footer: 
-    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"
+    center: "Powered with GitHub and Quarto<br>© Byeong-Hak Choe, 2024"
 
 format:
   html:
