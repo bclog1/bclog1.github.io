@@ -1,0 +1,16 @@
+{
+  "hash": "c20c1b9bac3cf341d3c63c140c648d4b",
+  "result": {
+    "markdown": "---\ntitle: Data Visualization with `ggplot`\nauthor: Byeong-Hak Choe\ndate: 2024-02-22\ncategories: [r, ggplot, data-visualization]\nimage: ggplot2.png\n\nexecute: \n  warning: false\n  message: false\n  \ntoc: true\n---\n\n\n\n\n\n\n# Understanding the Grammar of Graphics\n\n\n# Installing and Loading `ggplot2`\n\n\n::: {.cell}\n\n```{.r .cell-code}\ninstall.package(\"ggplot2\")\nlibrary(ggplot2)\n```\n:::\n\n\n\n\n# Example 1: Scatter Plot\n\n\n::: {.cell}\n\n```{.r .cell-code}\nggplot(data = mpg) +\n  geom_point(mapping = aes(x = displ, y = hwy),\n             alpha = .33)\n```\n\n::: {.cell-output-display}\n![](ggplot-basic_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "ggplot-basic_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

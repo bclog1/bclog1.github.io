@@ -1,5 +1,5 @@
 ---
-title: "YOUR NAME" 
+title: "YOUR NAME"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
@@ -18,7 +18,7 @@ about:
       href: https://github.com
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: https://bclog1.github.io/resume-example.pdf
     - icon: mailbox
       text: Email
       href: mailto:YOUR_EMAIL@geneseo.edu
