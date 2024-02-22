@@ -1,36 +1,40 @@
 ---
-title: "YOUR NAME"
+title: "Byeong-Hak Choe"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: img/bchoe2017.png
   image-width: 16em
-  image-shape: round # rectangle  round  rounded
+  image-shape: rounded # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: instagram
-      text: Instagram
-      href: https://instagram.com
+      href: https://www.linkedin.com/in/byeonghakchoe/
+      
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/climate_econ
+      
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/bclog1
+      
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://bclog1.github.io/resume-example.pdf
+      href: https://bclog1.github.io/choe-cv.pdf
+      
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:bchoe@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Byeong-Hak Choe is .....
 
 ## Education
 
-State University of New York at Geneseo | Geneseo, NY <br>
+University of Wyoming | Laramie, WY <br>
 B.S. in Data Analytics | Aug 2022 - May 2026 <br>
 Minor in Business Administration 
 
