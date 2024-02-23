@@ -8,3 +8,7 @@
 ::-webkit-scrollbar {
     width: 0px;
 }
+
+.navbar {
+    height: 75px; /* Adjust the height as needed */
+}

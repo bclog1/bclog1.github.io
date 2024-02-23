@@ -3,12 +3,14 @@ project:
   output-dir: "."
 
 website:
-  title: "Byeong-Hak Choe"
+  title: "B.H. CHOE"
   navbar:
     pinned: true
     left:
       - text: Project
         href: project.qmd
+      - text: R Basics
+        href: danl-200-quarto.qmd
       - text: Blog
         href: blog-listing.qmd
             
@@ -18,8 +20,8 @@ website:
 format:
   html:
     theme: 
-      light: flatly
-      dark: darkly
+      light: flatly # flatly
+      dark: [darkly, theme-dark.scss] # darkly
     mainfont: system-ui; 
     highlight-style: atom-one
     css: styles.css
