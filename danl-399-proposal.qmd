@@ -1,0 +1,63 @@
+---
+title: Project Proposal
+subtitle: This is subtitle
+author: 
+  - name: YOUR NAME
+  - name: YOUR COWORKER
+date: last-modified
+
+execute: 
+  echo: true    # true false
+  eval: true    # true false
+  warning: false    # true false
+  message: false    # true false
+  fig-width: 9
+  # fig-height: 5
+  
+format: 
+  html:
+    toc: true    # true false
+    number-sections: true    # true false
+    code-fold: show    # true false show       # https://quarto.org/docs/output-formats/html-code.html
+    code-tools: true    # true false
+    highlight-style: atom-one        # atom-one tango espresso   # https://quarto.org/docs/output-formats/html-code.html#highlighting
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(hrbrthemes)
+library(skimr)
+library(DT)
+
+```
+
+# Introduction
+
+<br>
+
+# Data
+
+<br>
+
+# Model and Results
+
+<br>
+
+# Discussion
+
+<br>
+
+# Conclusion
+
+<br>
+
+# References
+
+- [https://quarto.org/docs/output-formats/html-basics.html](https://quarto.org/docs/output-formats/html-basics.html)
+
+- [https://quarto.org/docs/websites/](https://quarto.org/docs/websites/)
+
+- [R for Data Science](http://r4ds.hadley.nz) by [Hadley Wickham](https://hadley.nz)
+
