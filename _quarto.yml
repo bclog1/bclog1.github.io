@@ -9,8 +9,6 @@ website:
     left:
       - text: Project
         href: project.qmd
-      - text: Proposal
-        href: danl-399-proposal.qmd
       - text: Blog
         href: blog-listing.qmd
             

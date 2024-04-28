@@ -1,0 +1,14 @@
+{
+  "hash": "f970181a996bda535eed0b55849fa4be",
+  "result": {
+    "markdown": "---\ntitle: Health Insurance\nauthor: YOUR NAME\ndate: 2024-04-28\ncategories: [r, tidyverse, data-analysis, health-insurance]\nimage: health-ins.png\n\nexecute: \n  warning: false\n  message: false\n  \ntoc: true\n---\n\n\n\n\nLet's analyze the `health_ins` data:\n\n...\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
