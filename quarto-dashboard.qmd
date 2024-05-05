@@ -1,5 +1,5 @@
 ---
-title: My Dashboard
+title: Gapminder
 format: 
   dashboard:
     orientation: columns
@@ -14,14 +14,14 @@ gapminder <- gapminder
 
 Here is some content
 
-## Column {width = 30%}
+## Column {width=24%}
 ```{r}
 gapminder |> 
   datatable()
 ```
 
 
-## Column {width = 20%}
+## Column {width=26%}
 ```{r}
 #| content: valuebox
 #| title: "Maximum Life Expectancy"
@@ -55,7 +55,7 @@ list(
 )
 ```
 
-## Row {.tabset}
+## Column {width=60%}
 
 ```{r}
 #| title: The Relationship between GDP and Life Expectancy
