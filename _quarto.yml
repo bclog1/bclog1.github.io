@@ -9,6 +9,8 @@ website:
     left:
       - text: Project
         href: project.qmd
+      - text: Dashboard
+        href: quarto-dashboard.qmd
       - text: Blog
         href: blog-listing.qmd
             

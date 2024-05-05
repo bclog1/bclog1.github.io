@@ -1,0 +1,80 @@
+---
+title: My Dashboard
+format: 
+  dashboard:
+    orientation: columns
+---
+
+```{r}
+library(tidyverse)
+library(gapminder)
+library(DT)
+gapminder <- gapminder
+```
+
+Here is some content
+
+## Column {width = 30%}
+```{r}
+gapminder |> 
+  datatable()
+```
+
+
+## Column {width = 20%}
+```{r}
+#| content: valuebox
+#| title: "Maximum Life Expectancy"
+
+list(
+  icon = "flower1",
+  color = "danger",
+  value = max(gapminder$lifeExp)
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Maximum GDP per capita"
+
+list(
+  icon = "currency-dollar",
+  color = "primary",
+  value = max(gapminder$gdpPercap)
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Mean Population"
+
+list(
+  icon = "people",
+  color = "warning",
+  value = mean(gapminder$gdpPercap)
+)
+```
+
+## Row {.tabset}
+
+```{r}
+#| title: The Relationship between GDP and Life Expectancy
+
+gapminder |> 
+  ggplot(aes(x = gdpPercap, y = lifeExp)) +
+  geom_point(alpha = .2) +
+  geom_smooth() +
+  theme_minimal()
+```
+
+
+```{r}
+#| title:  How does the Relationship between GDP and Life Expectancy Vary by Continent?
+
+gapminder |> 
+  ggplot(aes(x = gdpPercap, y = lifeExp)) +
+  geom_point(alpha = .2) +
+  geom_smooth() +
+  facet_wrap(continent ~ .) +
+  theme_minimal()
+```
