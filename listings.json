@@ -2,7 +2,6 @@
   {
     "listing": "/blog-listing.html",
     "items": [
-      "/posts/py-basic/danl_210_python_basic_blog.html",
       "/posts/welcome/index.html",
       "/posts/starwars/starwars_df.html",
       "/posts/post-with-code/index.html"
