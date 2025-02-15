@@ -1,9 +1,9 @@
-project: 
+project:
   type: website
-  output-dir: "." 
+  output-dir: "."
 
 website:
-  title: "YOUR NAME"
+  title: "MY NAME" 
   navbar:
     # background: "#1c4982"
     pinned: true
