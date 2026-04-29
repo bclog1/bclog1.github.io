@@ -1,38 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-5685cd926c25366c96d9f1407e584118.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
-<script src="site_libs/quarto-dashboard/stickythead.js"></script>
 
-
-
-<script src="site_libs/quarto-dashboard/web-components.js" type="module"></script>
-<script src="site_libs/quarto-dashboard/components.js"></script>
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>YOUR NAME</title>
+<title>Palmer Penguins – YOUR NAME</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -61,15 +36,24 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e5c0da90bde570b7566f6217e7c63da7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-cea25e2310d9ee8b66de880732a0fbab.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e5c0da90bde570b7566f6217e7c63da7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a3a2627f8f02b0876aa24393454bca0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-262a5cbb116992cacd04aa3ef1335fdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a3a2627f8f02b0876aa24393454bca0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5685cd926c25366c96d9f1407e584118.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
+<script src="site_libs/quarto-dashboard/stickythead.js"></script>
+
+
+
+<script src="site_libs/quarto-dashboard/web-components.js" type="module"></script>
+<script src="site_libs/quarto-dashboard/components.js"></script>
+
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,10 +83,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light quarto-dashboard dashboard-fill"><script id="quarto-html-before-body" type="application/javascript">
+<body class="quarto-dashboard nav-fixed dashboard-fill fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -266,6 +249,7 @@ ul.task-list li input[type="checkbox"] {
     }
   </script>
 
+
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
@@ -286,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dashboard-example.html"> 
+    <a class="nav-link active" href="./dashboard-example.html" aria-current="page"> 
 <span class="menu-text">Dashboard</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -311,83 +295,646 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-</header>
+<header id="quarto-dashboard-header">
+<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
+  <div class="navbar-container container-fluid">
+    <button class="navbar-toggler hidden" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+
+
+    <div class="navbar-brand-container">
+
+
+      <div class="navbar-title">
+        <div class="navbar-title-text"><a href="#">Palmer Penguins</a></div>
+        
+        
+      </div>
+    </div>
+</div>
+</nav>
+</header></header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="img/profile.png" class="about-image
-  round " style="height: 16em; width: 16em;">
- <div class="quarto-about-jolla">
-  <img src="img/profile.png" class="about-image
-  round " style="height: 16em; width: 16em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">YOUR NAME</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-<p>Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.</p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>State University of New York at Geneseo | Geneseo, NY <br> B.S. in Data Analytics | Aug 2023 - May 2027 <br> Minor in Economics</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p>Starbucks Analytics | Data Analyst Intern | May 2025 - Aug 2025</p>
-</section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="/resume-example.pdf" class="about-link" rel="" target="_blank">
-    <i class="bi bi-file-earmark-pdf"></i>
-     <span class="about-link-text">Resumé</span>
-  </a>
-  <a href="mailto:YOUR_EMAIL@geneseo.edu" class="about-link" rel="" target="">
-    <i class="bi bi-mailbox"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+
+
+<div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card cell bslib-card html-fill-container" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<img src="dashboard-example_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid quarto-dashboard-img-contain">
 </div>
 </div>
- 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="./resume-example.pdf" class="about-link" rel="" target="_blank">
-    <i class="bi bi-file-earmark-pdf"></i>
-     <span class="about-link-text">Resumé</span>
-  </a>
-  <a href="mailto:YOUR_EMAIL@geneseo.edu" class="about-link" rel="" target="">
-    <i class="bi bi-mailbox"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="card tabset bslib-card html-fill-container" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-header dashboard-card-no-title bslib-navs-card-title">
+
+<ul class="nav nav-tabs card-header-tabs" role="tablist" data-tabsetid="card-tabset-2"><li class="nav-item" role="presentation"><a href="#card-tabset-2-1" role="tab" data-toggle="tab" data-bs-toggle="tab" data-value="Chart 2" aria-selected="true" class="nav-link active">Chart 2</a></li><li class="nav-item" role="presentation"><a href="#card-tabset-2-2" role="tab" data-toggle="tab" data-bs-toggle="tab" data-value="Chart 3" aria-selected="false" class="nav-link">Chart 3</a></li><li class="nav-item" role="presentation"><a href="#card-tabset-2-3" role="tab" data-toggle="tab" data-bs-toggle="tab" data-value="table" aria-selected="false" class="nav-link">table</a></li></ul></div>
+
+
+
+
+
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
+
+</div>
+<div class="tab-content html-fill-item html-fill-container" data-tabset-id="card-tabset-2"><div class="tab-pane active show html-fill-item html-fill-container" role="tabpanel" id="card-tabset-2-1"><div class="card-body html-fill-item html-fill-container" data-title="Chart 2">
+<div class="cell-output-display html-fill-item html-fill-container">
+<img src="dashboard-example_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-dashboard-img-contain">
+</div>
+</div></div><div class="tab-pane html-fill-item html-fill-container" role="tabpanel" id="card-tabset-2-2"><div class="card-body html-fill-item html-fill-container" data-title="Chart 3">
+<div class="cell-output-display html-fill-item html-fill-container">
+<img src="dashboard-example_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid quarto-dashboard-img-contain">
+</div>
+</div></div><div class="tab-pane html-fill-item html-fill-container" role="tabpanel" id="card-tabset-2-3"><div class="card-body html-fill-item html-fill-container" data-title="table">
+<div class="cell-output-display html-fill-item html-fill-container">
+<div id="mysrpzwjut" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;" class="html-fill-item html-fill-container">
+<style>#mysrpzwjut table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#mysrpzwjut thead, #mysrpzwjut tbody, #mysrpzwjut tfoot, #mysrpzwjut tr, #mysrpzwjut td, #mysrpzwjut th {
+  border-style: none;
+}
+
+#mysrpzwjut p {
+  margin: 0;
+  padding: 0;
+}
+
+#mysrpzwjut .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#mysrpzwjut .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#mysrpzwjut .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#mysrpzwjut .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#mysrpzwjut .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#mysrpzwjut .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#mysrpzwjut .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#mysrpzwjut .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#mysrpzwjut .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#mysrpzwjut .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#mysrpzwjut .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#mysrpzwjut .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#mysrpzwjut .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#mysrpzwjut .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#mysrpzwjut .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mysrpzwjut .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#mysrpzwjut .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#mysrpzwjut .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#mysrpzwjut .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mysrpzwjut .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#mysrpzwjut .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mysrpzwjut .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#mysrpzwjut .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mysrpzwjut .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#mysrpzwjut .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mysrpzwjut .gt_left {
+  text-align: left;
+}
+
+#mysrpzwjut .gt_center {
+  text-align: center;
+}
+
+#mysrpzwjut .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#mysrpzwjut .gt_font_normal {
+  font-weight: normal;
+}
+
+#mysrpzwjut .gt_font_bold {
+  font-weight: bold;
+}
+
+#mysrpzwjut .gt_font_italic {
+  font-style: italic;
+}
+
+#mysrpzwjut .gt_super {
+  font-size: 65%;
+}
+
+#mysrpzwjut .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#mysrpzwjut .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#mysrpzwjut .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#mysrpzwjut .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#mysrpzwjut .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#mysrpzwjut .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#mysrpzwjut .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#mysrpzwjut .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#mysrpzwjut div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="year" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">year</th>
+<th id="Africa" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Africa</th>
+<th id="Americas" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Americas</th>
+<th id="Asia" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Asia</th>
+<th id="Europe" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Europe</th>
+<th id="Oceania" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Oceania</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="year">1952</td>
+<td class="gt_row gt_right" headers="Africa">39.1</td>
+<td class="gt_row gt_right" headers="Americas">53.3</td>
+<td class="gt_row gt_right" headers="Asia">46.3</td>
+<td class="gt_row gt_right" headers="Europe">64.4</td>
+<td class="gt_row gt_right" headers="Oceania">69.3</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="year">1957</td>
+<td class="gt_row gt_right" headers="Africa">41.3</td>
+<td class="gt_row gt_right" headers="Americas">56.0</td>
+<td class="gt_row gt_right" headers="Asia">49.3</td>
+<td class="gt_row gt_right" headers="Europe">66.7</td>
+<td class="gt_row gt_right" headers="Oceania">70.3</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="year">1962</td>
+<td class="gt_row gt_right" headers="Africa">43.3</td>
+<td class="gt_row gt_right" headers="Americas">58.4</td>
+<td class="gt_row gt_right" headers="Asia">51.6</td>
+<td class="gt_row gt_right" headers="Europe">68.5</td>
+<td class="gt_row gt_right" headers="Oceania">71.1</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="year">1967</td>
+<td class="gt_row gt_right" headers="Africa">45.3</td>
+<td class="gt_row gt_right" headers="Americas">60.4</td>
+<td class="gt_row gt_right" headers="Asia">54.7</td>
+<td class="gt_row gt_right" headers="Europe">69.7</td>
+<td class="gt_row gt_right" headers="Oceania">71.3</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="year">1972</td>
+<td class="gt_row gt_right" headers="Africa">47.5</td>
+<td class="gt_row gt_right" headers="Americas">62.4</td>
+<td class="gt_row gt_right" headers="Asia">57.3</td>
+<td class="gt_row gt_right" headers="Europe">70.8</td>
+<td class="gt_row gt_right" headers="Oceania">71.9</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="year">1977</td>
+<td class="gt_row gt_right" headers="Africa">49.6</td>
+<td class="gt_row gt_right" headers="Americas">64.4</td>
+<td class="gt_row gt_right" headers="Asia">59.6</td>
+<td class="gt_row gt_right" headers="Europe">71.9</td>
+<td class="gt_row gt_right" headers="Oceania">72.9</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="year">1982</td>
+<td class="gt_row gt_right" headers="Africa">51.6</td>
+<td class="gt_row gt_right" headers="Americas">66.2</td>
+<td class="gt_row gt_right" headers="Asia">62.6</td>
+<td class="gt_row gt_right" headers="Europe">72.8</td>
+<td class="gt_row gt_right" headers="Oceania">74.3</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="year">1987</td>
+<td class="gt_row gt_right" headers="Africa">53.3</td>
+<td class="gt_row gt_right" headers="Americas">68.1</td>
+<td class="gt_row gt_right" headers="Asia">64.9</td>
+<td class="gt_row gt_right" headers="Europe">73.6</td>
+<td class="gt_row gt_right" headers="Oceania">75.3</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="year">1992</td>
+<td class="gt_row gt_right" headers="Africa">53.6</td>
+<td class="gt_row gt_right" headers="Americas">69.6</td>
+<td class="gt_row gt_right" headers="Asia">66.5</td>
+<td class="gt_row gt_right" headers="Europe">74.4</td>
+<td class="gt_row gt_right" headers="Oceania">76.9</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="year">1997</td>
+<td class="gt_row gt_right" headers="Africa">53.6</td>
+<td class="gt_row gt_right" headers="Americas">71.2</td>
+<td class="gt_row gt_right" headers="Asia">68.0</td>
+<td class="gt_row gt_right" headers="Europe">75.5</td>
+<td class="gt_row gt_right" headers="Oceania">78.2</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="year">2002</td>
+<td class="gt_row gt_right" headers="Africa">53.3</td>
+<td class="gt_row gt_right" headers="Americas">72.4</td>
+<td class="gt_row gt_right" headers="Asia">69.2</td>
+<td class="gt_row gt_right" headers="Europe">76.7</td>
+<td class="gt_row gt_right" headers="Oceania">79.7</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="year">2007</td>
+<td class="gt_row gt_right" headers="Africa">54.8</td>
+<td class="gt_row gt_right" headers="Americas">73.6</td>
+<td class="gt_row gt_right" headers="Asia">70.7</td>
+<td class="gt_row gt_right" headers="Europe">77.6</td>
+<td class="gt_row gt_right" headers="Oceania">80.7</td>
+</tr>
+</tbody>
+</table>
+
 </div>
 </div>
- <!-- /main -->
-<script type="text/javascript" src="links.js"></script>
+</div></div></div><bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -403,6 +950,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -796,6 +1350,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 </div> <!-- /content -->
 
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (_event) {
+  if (window.bslib.Card) {
+    window.bslib.Card.initializeAllCards();
+  }
+}); 
+</script>
+  
 
 
 

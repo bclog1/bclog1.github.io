@@ -10,6 +10,8 @@ website:
     left:
       - text: Project
         href: danl-research-template.qmd
+      - text: Dashboard
+        href: dashboard-example.qmd
       - text: Data Analysis
         menu: 
           - text: Data Visualization with `ggplot`

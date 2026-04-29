@@ -1,0 +1,51 @@
+---
+title: "Palmer Penguins"
+format: dashboard
+---
+
+```{r}
+library(tidyverse)
+library(gapminder)
+library(gt)
+```
+
+## Row
+```{r}
+gapminder |> 
+  ggplot(aes(x = gdpPercap, y =lifeExp)) +
+  geom_point()
+```
+
+## Row {.tabset}
+
+```{r}
+#| title: Chart 2
+
+
+gapminder |> 
+  ggplot(aes(x = gdpPercap, y =lifeExp)) +
+  geom_point()
+```
+
+```{r}
+#| title: Chart 3
+
+
+gapminder |> 
+  ggplot(aes(x = gdpPercap, y =lifeExp)) +
+  geom_smooth()
+```
+
+
+```{r}
+#| title: table
+
+
+gapminder |>
+  group_by(continent, year) |>
+  summarize(mean_lifeExp = 
+              round(mean(lifeExp), 1)) |>
+  pivot_wider(names_from = continent, 
+              values_from = mean_lifeExp) |>
+  gt()
+```
